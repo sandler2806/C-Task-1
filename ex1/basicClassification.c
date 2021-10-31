@@ -31,3 +31,4 @@ int isStrong(int a){
     else return 0;
 
 }
+//ss
