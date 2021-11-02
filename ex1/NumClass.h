@@ -2,7 +2,7 @@
 	#define _NUMCLASS_H_
 
     // #define ISPRIME
-int isPrime (int);
+	int isPrime (int);
 
 	// #define isArmstrong
 	int length(int);
@@ -14,9 +14,9 @@ int isPrime (int);
 
 	// #define isPalindrome
 	int reverse(int);
-int isPalindrome (int);
+	int isPalindrome (int);
 
-int isStrong(int);
+	int isStrong(int);
 
 
 #endif
