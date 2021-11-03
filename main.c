@@ -1,12 +1,9 @@
 #include"NumClass.h"
 #include <stdio.h>
 int main (){
-    int x,y,min,max;
+    int min,max;
 
-    printf("enter 2 numbers\n");
-    scanf("%d %d",&x, &y);
-    max = x>y ? x : y;
-    min = x<y ? x : y;
+    scanf("%d %d",&min,&max);
     printf("The Armstrong numbers are:");
     for(int i=min;i<=max;i++){
         if(isArmstrong(i)==1)printf(" %d",i);
