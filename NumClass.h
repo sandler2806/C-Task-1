@@ -1,9 +1,10 @@
 #ifndef _NUMCALLS_H_
 	#define _NUMCLASS_H_
-
+	#define TRUE 1;
+	#define FALSE 0;
     // #define ISPRIME
 	int isPrime (int);
-
+	
 	// #define isArmstrong
 	int length(int);
 	int isArmstrong2 (int,int);

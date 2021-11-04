@@ -1,17 +1,17 @@
 #include"NumClass.h"
 int isPrime(int a)
 {
-    if(a==0)return 0;
-    if (a==1)return 1;
+    if(a<=0)return FALSE;
+    if (a==1)return TRUE;
     
     for(int i=2;i<a;i++)
     {
         if(a%i==0)
         {
-            return 0;
+            return FALSE;
             }
     }
-    return 1;
+    return TRUE;
 }
 int isStrong(int a){
     if(a==0)return 0;
@@ -29,7 +29,9 @@ int isStrong(int a){
         a=a/10;
     }
 
-    if(num==finally)return 1;
-    else return 0;
+    if(num==finally){
+        return TRUE;
+    }
+    else return FALSE;
 
 }
